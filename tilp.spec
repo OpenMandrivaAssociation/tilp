@@ -2,12 +2,12 @@
 %define oname tilp2
 
 %define version 1.14
-%define release %mkrel 1
+%define release %mkrel 0.1
 
-%define libticables_version 1.2.0
-%define libticalcs_version 1.1.2
-%define libtifiles_version 1.1.1
-%define	libticonv_version 1.1.0
+%define libticables_version 1.3.1
+%define libticalcs_version 1.1.5
+%define libtifiles_version 1.1.3
+%define	libticonv_version 1.1.1
 
 Summary:	Communicate with TI graphing calculators
 Name:		tilp
