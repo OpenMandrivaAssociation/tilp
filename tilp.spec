@@ -103,6 +103,8 @@ grep -q "\*\*TI" %{_datadir}/mimelnk/magic || \
 # %{_datadir}/applnk/*/*/*.desktop
 # %{_datadir}/mime-info/*
 # %{_datadir}/mimelnk/application/*.desktop
+%{_datadir}/applications/tilp.desktop
+%{_datadir}/mime/packages/tilp.xml
 
 %{_liconsdir}/%{name}.png
 %{_iconsdir}/%{name}.png
