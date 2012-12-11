@@ -111,3 +111,109 @@ grep -q "\*\*TI" %{_datadir}/mimelnk/magic || \
 %{_miconsdir}/%{name}.png
 
 
+
+
+%changelog
+* Thu Jan 19 2012 Zombie Ryushu <ryushu@mandriva.org> 1:1.16-0.1mdv2012.0
++ Revision: 762281
+- Upgrade to 1.16
+- Upgrade to 1.16
+
+* Tue Jul 13 2010 Zombie Ryushu <ryushu@mandriva.org> 1:1.14-0.1mdv2011.0
++ Revision: 551966
+- Upgrade to 1.14
+- import tilp
+
+
+* Sat Mar 14 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1:1.12-2mdv2009.1
++ Revision: 355057
+- drop unapplied patches
+- drop wrong libtifiles dep
+- drop useless autotools suite rebuilding
+
+* Sat Mar 07 2009 Zombie Ryushu <ryushu@mandriva.org> 1:1.12-1mdv2009.1
++ Revision: 351491
+- Adjust build requires version numbers for underlying libraries
+- Add Epoch
+- Update to TILP2 1.12
+- Work in Progress
+
+  + Nicolas Lécureuil <neoclust@mandriva.org>
+    - Fix configure option to not use Qt4 libs if this is a Qt3 application
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - lowercase ImageMagick
+
+* Wed Jul 23 2008 Thierry Vignaud <tvignaud@mandriva.com> 6.81-3mdv2009.0
++ Revision: 242858
+- rebuild
+- drop old menu
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Pixel <pixel@mandriva.com>
+    - rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Jul 02 2007 Olivier Thauvin <nanardon@mandriva.org> 6.81-1mdv2008.0
++ Revision: 46878
+- 6.81
+- Import tilp
+
+
+
+* Sun Jan 08 2006 Olivier Thauvin <nanardon@mandriva.org> 6.79-2mdk
+- Fix #20033, as suggest by Pierre (Comment #1)
+- Fix missing BuildRequires (Pierre also)
+
+* Tue Jul 05 2005 Olivier Thauvin <nanardon@mandriva.org> 6.79-1mdk
+- 6.79
+- rediff patch1, patch2
+- remove patch0, no longer need
+
+* Sun May 30 2004 Abel Cheung <deaddog@deaddog.org> 6.72-1mdk
+- New version
+- Rediff P2, P3
+- Inserts magic entry whenever new GNOME and KDE magic files are installed
+- Use ImageMagick to convert icons
+
+* Sat Oct 11 2003 Abel Cheung <deaddog@deaddog.org> 6.68-1mdk
+- 6.68 (GTK 2 based)
+- Merge everything back into one package, because:
+  - the "libraries" are plugins
+  - the "header files" are only for compiling bundled plugins, and
+    completely useless otherwise
+- Patch1: compile plugin without shared library version
+- Redo Patch2 (Fix DESTDIR support)
+- Patch3: Fix installation of plugin, and don't install test plugin
+
+* Sat Apr 26 2003 Olivier Thauvin <thauvin@aerov.jussieu.fr> 6.09-1mdk
+- 6.08 or 6.09, depends what we trust on sourceforge
+- buildrequires (stefan spam :)
+
+* Mon Feb 10 2003 Olivier Thauvin <thauvin@aerov.jussieu.fr> 6.04-1mdk
+- 6.04
+- -patch{0,1}; +patch2 (fix destdir)
+- split lib/libdevel
+
+* Fri Dec 27 2002 Olivier Thauvin <thauvin@aerov.jussieu.fr> 5.34-3mdk
+- rebuild for rpm and glibc
+
+* Sun Nov 24 2002 Olivier Thauvin <thauvin@aerov.jussieu.fr> 5.34-2mdk
+- rebuild
+- fix missing files
+
+* Wed Sep 04 2002 Olivier Thauvin <thauvin@aerov.jussieu.fr> 5.34-1mdk
+- port to mdk
+- 5.34
+- add menu and icones
+
+* Sun May  6 2001 Benjamin Gordon <ben@bxg.org>
+- Updated to version 4.16
+
+* Sat Mar 24 2001 Benjamin Gordon <ben@bxg.org>
+- Updated to version 4.06
+
+* Sun Feb 18 2001 Benjamin Gordon <ben@bxg.org>
+- Updated to version 3.93
