@@ -2,7 +2,7 @@
 %define oname tilp2
 
 %define version 1.16
-%define release %mkrel 0.1
+%define release 0.2
 
 %define libticables_version 1.3.3
 %define libticalcs_version 1.1.7
