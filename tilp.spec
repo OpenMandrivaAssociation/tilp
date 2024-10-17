@@ -15,7 +15,7 @@ Version:	%{version}
 Release:	%{release}
 License:	GPL
 Group:		Communications
-URL:		http://tilp.sourceforge.net/
+URL:		https://tilp.sourceforge.net/
 Epoch:		1
 Source:		%{oname}-%{version}.tar.bz2
 Requires:	libticables >= %{libticables_version}
